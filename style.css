@@ -1,16 +1,48 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --primary-color: #ff9900;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  color: #544837;
+}
+
+h1,
+h2,
+h3,
+h4 {
   color: #2F281E;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: white;
+  border: none;
+  background: var(--primary-color);
+  padding: 11px 24px;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 1110px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 32px;
+  gap: 27px;
   justify-content: center;
 }
-
 
 nav {
   display: flex;
@@ -22,6 +54,18 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 50px;
+}
+
+.buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.transparent {
+  background: transparent;
+  border: 1px solid #BCD0E5;
+  color: #173A56;
+  padding-block: 10px;
 }
 
 h1 {
@@ -76,7 +120,7 @@ h2 {
   margin: 50px;
 }
 
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   margin: 50px;
