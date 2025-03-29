@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.features-title {
+  text-align: center;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.features-button {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.design-professionals {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.product-managers {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.marketers {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
